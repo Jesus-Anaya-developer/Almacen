@@ -16,7 +16,7 @@ import { SharedModule } from './shared/shared/shared.module';
     BrowserModule,
     AppRoutingModule,
     PagesModule,
-    SharedModule
+    SharedModule,
   ],
   providers: [
     provideClientHydration()

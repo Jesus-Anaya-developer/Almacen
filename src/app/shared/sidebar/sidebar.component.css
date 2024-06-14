@@ -1,0 +1,4 @@
+a[routerLink] {
+  color: inherit; /* Esto quita el color predeterminado del enlace */
+  text-decoration: none; /* Esto quita el subrayado del enlace */
+}

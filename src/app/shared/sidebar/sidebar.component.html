@@ -1,13 +1,36 @@
-<div class="sidebar bg-primary vh-100">
-  <ul class="nav flex-column">
-    <li class="nav-item">
-      <a class="nav-link" href="#">Enlace 1</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Enlace 2</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Enlace 3</a>
-    </li>
-  </ul>
+<div class="sidebar bg-primary vh-100 p-0 py-5">
+  <div class="p-4 py-5">
+    <ul class="nav flex-column">
+      <li class="nav-item">
+        <a [routerLink]="['/dashboard']" routerLinkActive="router-link-active"
+          style="text-decoration: none; color: inherit;"><button type="button"
+            class="btn btn-dark w-100 mb-3 text-start">
+            Dashboard</button></a>
+      </li>
+      <li class="nav-item">
+        <a [routerLink]="['/buscarImei']" routerLinkActive="router-link-active"
+          style="text-decoration: none; color: inherit;">
+          <button type="button" class="btn btn-dark w-100 mb-3 text-start">Buscar
+            IMEI</button></a>
+      </li>
+      <li class="nav-item">
+        <a [routerLink]="['/buscarModelo']" routerLinkActive="router-link-active"
+          style="text-decoration: none; color: inherit;">
+          <button type="button" class="btn btn-dark w-100 mb-3 text-start">Buscar
+            modelos</button></a>
+      </li>
+      <li class="nav-item">
+        <a [routerLink]="['/buscarFecha']" routerLinkActive="router-link-active"
+          style="text-decoration: none; color: inherit;">
+          <button type="button" class="btn btn-dark w-100 mb-3 text-start">Buscar por
+            fechas</button></a>
+      </li>
+      <li class="nav-item">
+        <a [routerLink]="['/buscarGarantia']" routerLinkActive="router-link-active"
+          style="text-decoration: none; color: inherit;">
+          <button type="button" class="btn btn-dark w-100 mb-3 text-start">Buscar
+            garantias</button></a>
+      </li>
+    </ul>
+  </div>
 </div>
